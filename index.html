@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anh Tran | Portfolio</title>
+  <meta name="description" content="Personal site hosted with GitHub Pages">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg:#0b0f17; --text:#e8eefc; --muted:#9fb0c3; --accent:#8b5cf6; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; background:var(--bg); color:var(--text); }
+    header { max-width:960px; margin:48px auto 0; padding:0 20px; display:flex; align-items:center; justify-content:space-between; }
+    .name { font-weight:800; letter-spacing:0.3px; }
+    .links a { color:var(--text); text-decoration:none; margin-left:16px; opacity:.9; }
+    .links a:hover { color:var(--accent); }
+    main { max-width:960px; margin:32px auto; padding:0 20px; }
+    .card { background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.06); border-radius:16px; padding:28px; }
+    h1 { margin:0 0 12px 0; font-size:36px; }
+    p { color:var(--muted); line-height:1.7; }
+    .badges img { height:28px; margin:6px 6px 0 0; }
+    footer { max-width:960px; margin:24px auto 48px; padding:0 20px; color:var(--muted); font-size:14px; }
+  </style>
+  <!-- GitHub Pages uses Jekyll by default; this standalone page works without it. -->
+  <!-- Optional: add a CNAME file if using a custom domain. -->
+  <!-- Optional: add 404.html with the same shell if you need one. -->
+  
+</head>
+<body>
+  <header>
+    <div class="name">Anh Tran</div>
+    <nav class="links">
+      <a href="https://github.com/">GitHub</a>
+      <a href="https://www.linkedin.com/in/tran-ducanh/">LinkedIn</a>
+      <a href="mailto:anhtran@umass.edu">Email</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h1>Hi, I’m Anh Tran 👋</h1>
+      <p>
+        Graduate MCS @ UMass Amherst. Robotics + RL for locomotion/navigation,
+        sim‑to‑real, and perception–control. Building in ROS/Gazebo/IsaacLab.
+      </p>
+      <div class="badges">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+        <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
+        <img src="https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS"/>
+        <img src="https://img.shields.io/badge/Gazebo-FF6F00?style=for-the-badge" alt="Gazebo"/>
+        <img src="https://img.shields.io/badge/IsaacLab-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="IsaacLab"/>
+        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
+        <img src="https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge" alt="YOLO"/>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="y"></span> Your Name. Built with GitHub Pages.
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
+
