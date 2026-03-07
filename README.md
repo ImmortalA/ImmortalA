@@ -9,6 +9,8 @@
 [![Email](https://img.shields.io/badge/Email-ffffff?style=for-the-badge&logo=gmail&logoColor=ea4335)](mailto:anhtran@umass.edu)
 [![Website](https://img.shields.io/badge/Website-111827?style=for-the-badge&logo=googlechrome&logoColor=white)](https://tranducanh.net)
 
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=ImmortalA.ImmortalA)
+
 </div>
 
 ## About Me
