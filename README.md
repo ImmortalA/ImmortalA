@@ -32,9 +32,6 @@ I'm a graduate student researcher in the **DARoS Lab** at UMass Amherst, working
 
 ## Tech Stack
 
-*Main tools I use for humanoid locomotion, learning, and deployment.*
-
-### Simulation & control
 <p>
   <img src="https://img.shields.io/badge/IsaacLab-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
   <img src="https://img.shields.io/badge/Isaac%20Gym-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
@@ -43,25 +40,13 @@ I'm a graduate student researcher in the **DARoS Lab** at UMass Amherst, working
   <img src="https://img.shields.io/badge/Kinematics%20%26%20IK-6B7280?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/State%20Estimation-7C3AED?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Feedback%20Control-059669?style=for-the-badge"/>
-</p>
-
-### Learning
-<p>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
   <img src="https://img.shields.io/badge/Reinforcement%20Learning-8B5CF6?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Imitation%20Learning-6366F1?style=for-the-badge"/>
-</p>
-
-### Perception
-<p>
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
   <img src="https://img.shields.io/badge/YOLOv8-111111?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Intel%20RealSense-0071C5?style=for-the-badge&logo=intel&logoColor=white"/>
   <img src="https://img.shields.io/badge/MediaPipe-4285F4?style=for-the-badge"/>
-</p>
-
-### Systems & embedded
-<p>
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
