@@ -16,33 +16,17 @@
 
 ## About Me
 
-I am a graduate student researcher in the DARoS Lab at UMass Amherst, working on robotics systems that connect learning, control, and perception. My current focus includes humanoid and quadruped locomotion, imitation learning, reinforcement learning in IsaacLab, and sim-to-real robotic deployment.
-
-I enjoy building practical systems end to end, from simulation and policy training to embedded communication, actuator control, and real-world robot validation.
+I'm a graduate student researcher in the **DARoS Lab** at UMass Amherst, working on **robotic systems** that connect learning, control, and perception. I build and deploy systems end to end—from simulation and policy training in IsaacLab to embedded communication, actuator control, and real-world validation on legged and humanoid platforms.
 
 ---
 
-## Current Focus
+## Focus & Interests
 
-- Humanoid locomotion and motion-retargeting pipelines
-- Reinforcement learning for legged robots in IsaacLab
-- Perception-control integration for autonomous robotics
-- Robot deployment with ROS, Gazebo, IsaacLab, and embedded systems
-- Sim-to-real transfer for robust locomotion and navigation
-
----
-
-## Robotics Interests
-
-- Legged robotics
-- Humanoid walking
-- Reinforcement learning
-- Imitation learning
-- Robot perception
-- State estimation
-- Motion retargeting
-- Embedded robot systems
-- Vision-based autonomy
+- Humanoid and quadruped locomotion; motion retargeting
+- Reinforcement learning and imitation learning for legged robots (IsaacLab)
+- Perception–control integration and vision-based autonomy
+- State estimation, sim-to-real transfer, and robust navigation
+- Robot deployment: ROS 2, Gazebo, IsaacLab, and embedded systems (CAN, real-time control)
 
 ---
 
@@ -62,12 +46,8 @@ I enjoy building practical systems end to end, from simulation and policy traini
 ### Learning & Perception
 <p>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
   <img src="https://img.shields.io/badge/YOLOv8-111111?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
 </p>
 
 ### Systems & Embedded
@@ -75,20 +55,20 @@ I enjoy building practical systems end to end, from simulation and policy traini
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-  <img src="https://img.shields.io/badge/CAN-0F172A?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/UDP/IP-1D4ED8?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Teensy-334155?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
 </p>
-
 
 ---
 
-## Contact
+## Projects
 
-- **LinkedIn:** [Duc-Anh Tran](https://www.linkedin.com/in/tran-ducanh/)
-- **Email:** [anhtran@umass.edu](mailto:anhtran@umass.edu)
-- **Website:** [tranducanh.net](https://tranducanh.net)
+<!-- Replace with your repo links and short descriptions -->
+- **[Project name](https://github.com/yourusername/repo)** — Short description (e.g. RL policy for humanoid walking in IsaacLab).
+- **[Another project](https://github.com/yourusername/repo)** — Short description.
+
+---
+
+Reach me via the links above. Open to collaboration and discussions on legged robotics and RL.
