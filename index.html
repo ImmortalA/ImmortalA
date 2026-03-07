@@ -3,62 +3,391 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Anh Tran | Portfolio</title>
-  <meta name="description" content="Personal site hosted with GitHub Pages">
+  <title>Anh Tran | Robotics Portfolio</title>
+  <meta name="description" content="Anh Tran - Robotics researcher focused on humanoid locomotion, reinforcement learning, perception, and sim-to-real systems.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
   <style>
-    :root { --bg:#0b0f17; --text:#e8eefc; --muted:#9fb0c3; --accent:#8b5cf6; }
-    * { box-sizing:border-box; }
-    body { margin:0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; background:var(--bg); color:var(--text); }
-    header { max-width:960px; margin:48px auto 0; padding:0 20px; display:flex; align-items:center; justify-content:space-between; }
-    .name { font-weight:800; letter-spacing:0.3px; }
-    .links a { color:var(--text); text-decoration:none; margin-left:16px; opacity:.9; }
-    .links a:hover { color:var(--accent); }
-    main { max-width:960px; margin:32px auto; padding:0 20px; }
-    .card { background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.06); border-radius:16px; padding:28px; }
-    h1 { margin:0 0 12px 0; font-size:36px; }
-    p { color:var(--muted); line-height:1.7; }
-    .badges img { height:28px; margin:6px 6px 0 0; }
-    footer { max-width:960px; margin:24px auto 48px; padding:0 20px; color:var(--muted); font-size:14px; }
+    :root {
+      --bg: #08111f;
+      --panel: rgba(255,255,255,0.05);
+      --panel-2: rgba(255,255,255,0.03);
+      --text: #eaf2ff;
+      --muted: #9db0c9;
+      --accent: #38bdf8;
+      --accent-2: #22c55e;
+      --border: rgba(255,255,255,0.08);
+      --max: 1080px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(56,189,248,0.12), transparent 20%),
+        radial-gradient(circle at top left, rgba(34,197,94,0.10), transparent 18%),
+        var(--bg);
+      color: var(--text);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(10px);
+      background: rgba(8,17,31,0.75);
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .nav {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 18px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand {
+      font-weight: 800;
+      letter-spacing: 0.2px;
+      font-size: 18px;
+    }
+
+    .brand span {
+      color: var(--accent);
+    }
+
+    .nav-links a {
+      margin-left: 18px;
+      color: var(--muted);
+      font-size: 14px;
+      transition: 0.2s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--accent);
+    }
+
+    .hero {
+      padding: 88px 0 42px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 24px;
+      align-items: stretch;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 30px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.18);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 14px;
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0 0 14px;
+      font-size: 46px;
+      line-height: 1.05;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      line-height: 1.8;
+      color: var(--muted);
+      max-width: 680px;
+      margin-bottom: 24px;
+    }
+
+    .cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 26px;
+    }
+
+    .btn {
+      padding: 12px 16px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.03);
+      color: var(--text);
+      font-weight: 600;
+      font-size: 14px;
+      transition: 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      border-color: rgba(56,189,248,0.35);
+      color: white;
+    }
+
+    .btn.primary {
+      background: linear-gradient(135deg, rgba(56,189,248,0.18), rgba(34,197,94,0.14));
+      border-color: rgba(56,189,248,0.28);
+    }
+
+    .hero-list {
+      display: grid;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .hero-list div {
+      padding: 14px 16px;
+      border-radius: 14px;
+      background: var(--panel-2);
+      border: 1px solid rgba(255,255,255,0.05);
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .hero-list strong {
+      color: var(--text);
+    }
+
+    section {
+      padding: 18px 0;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin: 0 0 18px;
+    }
+
+    .section-desc {
+      color: var(--muted);
+      max-width: 760px;
+      line-height: 1.8;
+      margin-bottom: 22px;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .chip {
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.06);
+      color: var(--text);
+      font-size: 14px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .project h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+
+    .project p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.75;
+    }
+
+    .badge-row img {
+      height: 28px;
+      margin: 6px 8px 0 0;
+    }
+
+    footer {
+      padding: 34px 0 48px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 900px) {
+      .hero-grid, .grid-3 {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 38px;
+      }
+
+      .nav-links {
+        display: none;
+      }
+    }
   </style>
-  <!-- GitHub Pages uses Jekyll by default; this standalone page works without it. -->
-  <!-- Optional: add a CNAME file if using a custom domain. -->
-  <!-- Optional: add 404.html with the same shell if you need one. -->
-  
 </head>
 <body>
   <header>
-    <div class="name">Anh Tran</div>
-    <nav class="links">
-      <a href="https://github.com/">GitHub</a>
-      <a href="https://www.linkedin.com/in/tran-ducanh/">LinkedIn</a>
-      <a href="mailto:anhtran@umass.edu">Email</a>
-    </nav>
+    <div class="nav">
+      <div class="brand">Anh <span>Tran</span></div>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#focus">Focus</a>
+        <a href="#projects">Projects</a>
+        <a href="#stack">Stack</a>
+        <a href="https://www.linkedin.com/in/tran-ducanh/">LinkedIn</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section class="card">
-      <h1>Hi, I’m Anh Tran 👋</h1>
-      <p>
-        Graduate MCS @ UMass Amherst. Robotics + RL for locomotion/navigation,
-        sim‑to‑real, and perception–control. Building in ROS/Gazebo/IsaacLab.
+  <main class="container">
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="card">
+          <div class="eyebrow">Robotics Researcher</div>
+          <h1>Building legged robots that learn, perceive, and move in the real world.</h1>
+          <p class="subtitle">
+            I am Anh Tran, an MSCS student at UMass Amherst working on humanoid locomotion,
+            reinforcement learning, perception-control integration, and sim-to-real robotics systems.
+          </p>
+
+          <div class="cta">
+            <a class="btn primary" href="mailto:anhtran@umass.edu">Contact Me</a>
+            <a class="btn" href="https://www.linkedin.com/in/tran-ducanh/">LinkedIn</a>
+            <a class="btn" href="https://github.com/ImmortalA">GitHub</a>
+          </div>
+
+          <div class="badge-row">
+            <img src="https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS">
+            <img src="https://img.shields.io/badge/IsaacLab-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="IsaacLab">
+            <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
+            <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV">
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="eyebrow">Current Work</div>
+          <div class="hero-list">
+            <div><strong>Humanoid locomotion:</strong> motion retargeting, imitation learning, and walking policy development.</div>
+            <div><strong>RL in simulation:</strong> training robust legged policies in IsaacLab across massively parallel environments.</div>
+            <div><strong>Robot systems:</strong> embedded communication, actuator control, and deployment-oriented robotics software.</div>
+            <div><strong>Perception:</strong> RGB-D sensing, vision-based tracking, and perception-control integration.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="card">
+        <h2>About</h2>
+        <p class="section-desc">
+          I work on robotics problems that sit at the intersection of learning, control, and real-world system implementation.
+          My interests include humanoid and quadruped locomotion, reinforcement learning, imitation learning, robot perception,
+          and sim-to-real transfer. I enjoy building complete systems, from simulation environments and training pipelines to
+          embedded interfaces and physical deployment.
+        </p>
+      </div>
+    </section>
+
+    <section id="focus">
+      <div class="card">
+        <h2>Research Focus</h2>
+        <div class="chips">
+          <div class="chip">Humanoid Locomotion</div>
+          <div class="chip">Quadruped Locomotion</div>
+          <div class="chip">Reinforcement Learning</div>
+          <div class="chip">Imitation Learning</div>
+          <div class="chip">Motion Retargeting</div>
+          <div class="chip">Perception-Control</div>
+          <div class="chip">Sim-to-Real Transfer</div>
+          <div class="chip">Embedded Robotics</div>
+          <div class="chip">ROS / IsaacLab / Gazebo</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Featured Robotics Work</h2>
+      <p class="section-desc">
+        A few areas that define the kind of robotics systems I like to build.
       </p>
-      <div class="badges">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-        <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
-        <img src="https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS"/>
-        <img src="https://img.shields.io/badge/Gazebo-FF6F00?style=for-the-badge" alt="Gazebo"/>
-        <img src="https://img.shields.io/badge/IsaacLab-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="IsaacLab"/>
-        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
-        <img src="https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge" alt="YOLO"/>
+
+      <div class="grid-3">
+        <div class="card project">
+          <h3>Humanoid Walking</h3>
+          <p>
+            Developing a humanoid locomotion pipeline using motion retargeting, tracking objectives,
+            and human motion as reference trajectories for learning-based walking.
+          </p>
+        </div>
+
+        <div class="card project">
+          <h3>RL for Legged Robots</h3>
+          <p>
+            Training blind and vision-based locomotion policies in IsaacLab, with emphasis on terrain robustness,
+            stable gait formation, and scalable parallel simulation.
+          </p>
+        </div>
+
+        <div class="card project">
+          <h3>Robot Perception and Systems</h3>
+          <p>
+            Building practical robotics software with ROS, RGB-D sensing, embedded communication,
+            actuator interfaces, and deployment-aware system design.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="stack">
+      <div class="card">
+        <h2>Technical Stack</h2>
+        <div class="badge-row">
+          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+          <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
+          <img src="https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS"/>
+          <img src="https://img.shields.io/badge/Gazebo-FF6F00?style=for-the-badge" alt="Gazebo"/>
+          <img src="https://img.shields.io/badge/IsaacLab-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="IsaacLab"/>
+          <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
+          <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
+          <img src="https://img.shields.io/badge/YOLOv8-111111?style=for-the-badge" alt="YOLOv8"/>
+          <img src="https://img.shields.io/badge/Intel%20RealSense-0071C5?style=for-the-badge&logo=intel&logoColor=white" alt="RealSense"/>
+          <img src="https://img.shields.io/badge/NVIDIA%20Jetson-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="Jetson"/>
+          <img src="https://img.shields.io/badge/CAN-0F172A?style=for-the-badge" alt="CAN"/>
+          <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+          <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu"/>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    © <span id="y"></span> Your Name. Built with GitHub Pages.
+  <footer class="container">
+    © <span id="y"></span> Anh Tran. Built with GitHub Pages.
   </footer>
 
   <script>
@@ -66,5 +395,3 @@
   </script>
 </body>
 </html>
-
-
