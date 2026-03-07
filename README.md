@@ -11,9 +11,9 @@
 
 </div>
 
-<!-- <p align="center">
+<p align="center">
   <img src="assets/robot-training.svg?v=2" alt="Humanoid walking" width="100%"/>
-</p> -->
+</p>
 
 ## About Me
 
