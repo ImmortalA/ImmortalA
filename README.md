@@ -12,7 +12,7 @@
 </div>
 
 <p align="center">
-  <img src="assets/robot-training.svg?v=2" alt="Humanoid walking" width="100%"/>
+  <img src="assets/robot-training.svg" alt="Humanoid walking" width="100%"/>
 </p>
 
 ## About Me
