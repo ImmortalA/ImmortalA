@@ -11,13 +11,9 @@
 
 </div>
 
----
-
 ## About Me
 
 I'm a graduate student researcher in the **DARoS Lab** at UMass Amherst, working on **robotic systems** that connect learning, control, and perception. I build and deploy systems end to end—from simulation and policy training in IsaacLab to embedded communication, actuator control, and real-world validation on legged and humanoid platforms.
-
----
 
 ## Focus & Interests
 
@@ -26,8 +22,6 @@ I'm a graduate student researcher in the **DARoS Lab** at UMass Amherst, working
 - Perception–control integration and vision-based autonomy
 - State estimation, sim-to-real transfer, and robust navigation
 - Robot deployment: ROS 2, Gazebo, IsaacLab, and embedded systems (CAN, real-time control)
-
----
 
 ## Tech Stack
 
@@ -52,7 +46,5 @@ I'm a graduate student researcher in the **DARoS Lab** at UMass Amherst, working
 ![Teensy](https://img.shields.io/badge/Teensy-334155?style=for-the-badge)
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
-
----
 
 Reach me via the links above. Open to collaboration and discussions on legged robotics and RL.
