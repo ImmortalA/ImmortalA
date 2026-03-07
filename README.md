@@ -13,7 +13,7 @@
 
 ## About Me
 
-I'm a graduate student researcher in the **DARoS Lab** at UMass Amherst, working on **robotic systems** that connect learning, control, and perception. I build and deploy systems end to end—from simulation and policy training in IsaacLab to embedded communication, actuator control, and real-world validation on legged and humanoid platforms.
+I'm a graduate student researcher in the **DARoS Lab** at UMass Amherst, working on **robotic systems** that connect learning, control, and perception. I build and deploy systems end to end - from simulation and policy training in IsaacLab to embedded communication, actuator control, and real-world validation on legged and humanoid platforms.
 
 ## Focus & Interests
 
