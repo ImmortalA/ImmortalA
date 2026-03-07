@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="240" height="48" viewBox="0 0 240 48">
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="26" viewBox="0 0 200 26">
   <g id="humanoid">
-    <circle cx="0" cy="-17" r="5" fill="#333"/>
-    <rect x="-3" y="-12" width="6" height="12" rx="1" fill="#333"/>
-    <rect x="-3" y="0" width="3" height="6" rx="1" fill="#333"/>
-    <rect x="0" y="0" width="3" height="6" rx="1" fill="#333"/>
+    <circle cx="0" cy="-11" r="3" fill="#333"/>
+    <rect x="-2" y="-8" width="4" height="8" rx="1" fill="#333"/>
+    <rect x="-2" y="0" width="2" height="4" rx="1" fill="#333"/>
+    <rect x="0" y="0" width="2" height="4" rx="1" fill="#333"/>
   </g>
-  <animateMotion href="#humanoid" dur="3s" repeatCount="indefinite" path="M28,24 L212,24 L212,24 L28,24"/>
+  <animateMotion href="#humanoid" dur="3s" repeatCount="indefinite" path="M20,20 L180,20 L180,20 L20,20"/>
 </svg>

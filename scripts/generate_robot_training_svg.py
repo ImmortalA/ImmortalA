@@ -6,16 +6,16 @@ Small, clean animation for profile README.
 from pathlib import Path
 import sys
 
-# Compact viewBox; humanoid moves along a short path
-WIDTH = 240
-HEIGHT = 48
-# Humanoid size
-HEAD_R = 5
-BODY_W, BODY_H = 6, 12
-LEG_W, LEG_H = 3, 6
-# Path: left -> right -> left (center Y)
-PATH_MARGIN = 28
-PATH_Y = HEIGHT // 2
+# Short horizontal strip: wide and low so it doesn’t look like a vertical block
+WIDTH = 200
+HEIGHT = 26
+# Humanoid size (fits in HEIGHT)
+HEAD_R = 3
+BODY_W, BODY_H = 4, 8
+LEG_W, LEG_H = 2, 4
+# Path: left -> right -> left (Y so humanoid fits in viewBox)
+PATH_MARGIN = 20
+PATH_Y = 20  # feet at y=20, head ~y=6
 
 
 def emit_svg(out_path: Path) -> None:
