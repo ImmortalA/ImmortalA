@@ -13,7 +13,7 @@
 
 ## About Me
 
-Robotics Research Engineer at VinMotion and graduate researcher at the DARoS Lab (UMass Amherst), focusing on reinforcement learning for legged and humanoid locomotion. I develop learning-based control systems from large-scale simulation (IsaacLab) to real-world deployment.
+Senior Robotics Engineer at VinMotion and graduate researcher at the DARoS Lab (UMass Amherst), focusing on reinforcement learning for legged and humanoid locomotion. I develop learning-based control systems from large-scale simulation (IsaacLab) to real-world deployment.
 
 ## Focus
 
