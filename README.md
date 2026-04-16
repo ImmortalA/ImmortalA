@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1>Anh Tran</h1>
-<h3>MSCS @ UMass Amherst • Robotics Researcher • Humanoid Locomotion, RL, and Perception</h3>
+<h3>Senior Robotics Engineer @ VinMotion • MSCS @ UMass Amherst • RL & Locomotion</h3>
 
 <br/>
 
@@ -13,15 +13,15 @@
 
 ## About Me
 
-I'm a graduate student researcher in the **DARoS Lab** at UMass Amherst, working on **robotic systems** that connect learning, control, and perception. I build and deploy systems end to end - from simulation and policy training in IsaacLab to embedded communication, actuator control, and real-world validation on legged and humanoid platforms.
+Robotics Research Engineer at VinMotion and graduate researcher at the DARoS Lab (UMass Amherst), focusing on reinforcement learning for legged and humanoid locomotion. I develop learning-based control systems from large-scale simulation (IsaacLab) to real-world deployment.
 
-## Focus & Interests
+## Focus
 
-- Humanoid and quadruped locomotion; motion retargeting
-- Reinforcement learning and imitation learning for legged robots (IsaacLab)
-- Perception–control integration and vision-based autonomy
-- State estimation, sim-to-real transfer, and robust navigation
-- Robot deployment: ROS 2, Gazebo, IsaacLab, and embedded systems (CAN, real-time control)
+- Reinforcement learning for legged & humanoid locomotion  
+- Motion retargeting and learning-based control  
+- Sim-to-real transfer and robust policy training  
+- Real-world deployment and control validation  
+
 
 ## Tech Stack
 
