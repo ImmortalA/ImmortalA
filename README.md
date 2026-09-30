@@ -13,15 +13,17 @@
 
 ## About Me
 
-Interested in **robot learning, humanoid robotics, and embodied intelligence**.
+I love robots, education, and traveling.
 
-I work on reinforcement learning, robot policies, simulation-to-real transfer, and building robots that can adapt to new tasks and environments.
+Most of my work revolves around robot learning and humanoid robotics, but I’m also interested in making robotics easier to learn, build, and experiment with.
+
+When I’m not working on robots, I’m probably exploring somewhere new.
 
 ## Currently Admiring
 
 <div align="center">
 
-<img src="assets/OakGrove.png" width="650">
+<img src="assets/OakGrove.png" width="100%">
 
 *Ivan Shishkin — Oak Grove (1887)*
 
