@@ -1,4 +1,3 @@
-```markdown
 <div align="center">
 
 <h1>Anh Tran</h1>
@@ -54,4 +53,3 @@ I work on reinforcement learning, robot policies, simulation-to-real transfer, a
 ---
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=ImmortalA.ImmortalA)
-```
