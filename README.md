@@ -20,24 +20,25 @@ I work on reinforcement learning, robot policies, simulation-to-real transfer, a
 ## Tech Stack
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Reinforcement Learning](https://img.shields.io/badge/Reinforcement%20Learning-8B5CF6?style=for-the-badge)
-![Imitation Learning](https://img.shields.io/badge/Imitation%20Learning-6366F1?style=for-the-badge)
 ![IsaacLab](https://img.shields.io/badge/IsaacLab-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![Isaac Gym](https://img.shields.io/badge/Isaac%20Gym-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 ![MuJoCo](https://img.shields.io/badge/MuJoCo-111827?style=for-the-badge)
+![MJLab](https://img.shields.io/badge/MJLab-4B5563?style=for-the-badge)
+![MJBatch](https://img.shields.io/badge/MJBatch-374151?style=for-the-badge)
 ![ROS 2](https://img.shields.io/badge/ROS%202-22314E?style=for-the-badge&logo=ros&logoColor=white)
-![Kinematics & IK](https://img.shields.io/badge/Kinematics%20%26%20IK-6B7280?style=for-the-badge)
-![State Estimation](https://img.shields.io/badge/State%20Estimation-7C3AED?style=for-the-badge)
-![Feedback Control](https://img.shields.io/badge/Feedback%20Control-059669?style=for-the-badge)
+![ONNX Runtime](https://img.shields.io/badge/ONNX%20Runtime-005CED?style=for-the-badge)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Intel RealSense](https://img.shields.io/badge/Intel%20RealSense-0071C5?style=for-the-badge&logo=intel&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
-![ONNX Runtime](https://img.shields.io/badge/ONNX%20Runtime-005CED?style=for-the-badge)
 ![CAN](https://img.shields.io/badge/CAN-0F172A?style=for-the-badge)
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Weights & Biases](https://img.shields.io/badge/Weights%20%26%20Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black)
+![TensorBoard](https://img.shields.io/badge/TensorBoard-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 
 ---
 
