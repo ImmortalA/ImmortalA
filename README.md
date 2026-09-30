@@ -1,3 +1,4 @@
+```markdown
 <div align="center">
 
 <h1>Anh Tran</h1>
@@ -16,6 +17,16 @@
 Interested in **robot learning, humanoid robotics, and embodied intelligence**.
 
 I work on reinforcement learning, robot policies, simulation-to-real transfer, and building robots that can adapt to new tasks and environments.
+
+## Currently Admiring
+
+<div align="center">
+
+<img src="assets/OakGrove.png" width="650">
+
+*Ivan Shishkin — Oak Grove (1887)*
+
+</div>
 
 ## Tech Stack
 
@@ -43,3 +54,4 @@ I work on reinforcement learning, robot policies, simulation-to-real transfer, a
 ---
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=ImmortalA.ImmortalA)
+```
